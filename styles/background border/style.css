@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background1 {
+    height: 350px;
+    background-color: aqua;
+    border-top-right-radius: 50%;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    padding: 20px 50px 50px;
+}
+
+.bg {
+    position: relative;
+    overflow: hidden;
+}
+
+.background2 {
+    height: 500px;
+    background: transparent linear-gradient(12deg, #F6F6F6 0%, #F2F6F0 15%, #D7F5C8 100%) 0% 0% no-repeat padding-box;
+    border-top-right-radius: 80%;
+    margin-top: 20px;
+}
+
+.row1 {
+    display: flex;
+    padding: 20px 50px 50px;
+    position: absolute;
+    top: 20px;
+}
